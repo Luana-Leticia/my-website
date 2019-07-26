@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Source+Code+Pro:400,500,600,700&display=swap");
+
+/*  font-family: 'Amatic SC', cursive;
+    font-family: 'Source Code Pro', monospace; */
+
+* {
+  box-sizing: border-box;
+  font-color: black;
+}
+
+.html,
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+/*GENERAL*/
+
+.title {
+  font-family: "Amatic SC", cursive;
+  font-size: 72px;
+  text-align: center;
+}
+
+.text {
+  font-family: "Source Code Pro", monospace;
+  font-size: 28px;
+  text-align: center;
+}
+
+/*HEADER*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(235, 27, 102, 0.25) 0%,
+    rgba(216, 196, 23, 0.3) 100%
+  );
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-family: "Amatic SC", cursive;
+}
+
+.list-item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.luana-photo {
+  width: 300px;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.initial-title {
+  font-family: "Source Code Pro", monospace;
+  font-size: 50px;
+  text-align: center;
+}
+
+.initial-text {
+  font-family: "Source Code Pro", monospace;
+  font-size: 32px;
+  text-align: center;
+}
+/*CONTACT AND ABOUT*/
+
+.section-contact,
+.section-about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section-about {
+  background: linear-gradient(
+    180deg,
+    rgba(235, 27, 102, 0.25) 42.97%,
+    rgba(216, 196, 23, 0.3) 100%
+  );
+}
+
+.section-contact {
+  background: #faf9f9;
+}
+
+.link-email {
+  text-decoration: none;
+  color: black;
+}
+
+/*FOOTER*/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #878080;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.footer-icon {
+  width: 50px;
+  object-fit: fill;
+  fill: black 25%;
+}
