@@ -157,6 +157,7 @@
   background: black;
   justify-content: space-around;
   height: 100px;
+  align-items: center;
 }
 
 .footer-icon {
